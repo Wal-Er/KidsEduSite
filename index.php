@@ -4,7 +4,7 @@ session_start();
 
 // Redirect user to main authenticated page if they are already logged in
 if (isset($_SESSION['username'])) {
-header("Location: main_auth.php");
+    header("Location: main_auth.php");
 exit();
 }
 
