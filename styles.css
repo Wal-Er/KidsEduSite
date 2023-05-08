@@ -1,0 +1,178 @@
+/* Мобильные устройства (меньше 768px) */
+@media only screen and (max-width: 767px) {
+  /* Измените размер шрифта для заголовка */
+  h1 {
+    font-size: 24px;
+  }
+
+  /* Измените размер шрифта для описания */
+  p {
+    font-size: 14px;
+  }
+
+  /* Измените ширину картинок */
+  .image-container img {
+    width: 100%;
+  }
+}
+
+/* Планшеты (между 768px и 1024px) */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  /* Измените размер шрифта для заголовка */
+  h1 {
+    font-size: 36px;
+  }
+
+  /* Измените размер шрифта для описания */
+  p {
+    font-size: 18px;
+  }
+
+  /* Измените ширину картинок */
+  .image-container img {
+    width: 50%;
+  }
+}
+
+/* Десктопы (больше 1024px) */
+@media only screen and (min-width: 1024px) {
+  /* Измените размер шрифта для заголовка */
+  h1 {
+    font-size: 48px;
+  }
+
+  /* Измените размер шрифта для описания */
+  p {
+    font-size: 24px;
+  }
+
+  /* Измените ширину картинок */
+  .image-container img {
+    width: 30%;
+  }
+}
+
+
+iframe {
+  height: 0;
+  padding-bottom: 56.25%;
+  position: relative;
+}
+
+
+/* Стили для заголовка */
+h1 {
+color: #0066CC;
+font-size: 36px;
+text-align: center;
+}
+
+/* Стили для абзаца */
+p {
+color: #333;
+font-size: 18px;
+text-align: center;
+margin-bottom: 20px;
+}
+
+/* Стили для меню */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #0066CC;
+  height: 50px;
+  padding: 0 20px;
+}
+
+
+a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+
+
+
+/* Оформление страницы */
+body {
+font-family: Arial, sans-serif;
+margin: 0;
+padding: 0;
+}
+
+h2 {
+font-size: 2em;
+margin-top: 0;
+}
+
+
+/* Оформление формы feedback*/
+form {
+background-color: #f9f9f9;
+border: 1px solid #ccc;
+padding: 1em;
+margin-bottom: 2em;
+}
+
+label {
+display: block;
+margin-bottom: 0.5em;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+textarea {
+width: 100%;
+padding: 0.5em;
+margin-bottom: 1em;
+border: 1px solid #ccc;
+border-radius: 4px;
+}
+
+input[type="submit"] {
+background-color: #4CAF50;
+color: white;
+padding: 0.5em 1em;
+border: none;
+border-radius: 4px;
+cursor: pointer;
+}
+
+/* Оформление кнопки */
+button {
+background-color: #4CAF50;
+color: white;
+padding: 0.5em 1em;
+border: none;
+border-radius: 4px;
+cursor: pointer;
+}
+
+
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+/* Оформление списка */
+ul {
+list-style-type: none;
+margin: 0;
+padding: 0;
+}
+
+li {
+display: inline-block;
+margin-right: 1em;
+}
