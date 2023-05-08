@@ -1,52 +1,52 @@
-/* Мобильные устройства (меньше 768px) */
+/* Mobile devices (less than 768px) */
 @media only screen and (max-width: 767px) {
-  /* Измените размер шрифта для заголовка */
+  /* Change font size for header1 */
   h1 {
     font-size: 24px;
   }
 
-  /* Измените размер шрифта для описания */
+  /* Change paragraph font size */
   p {
     font-size: 14px;
   }
 
-  /* Измените ширину картинок */
+  /* Change image width */
   .image-container img {
     width: 100%;
   }
 }
 
-/* Планшеты (между 768px и 1024px) */
+/* Tablets (between 768px and 1024px) */
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
-  /* Измените размер шрифта для заголовка */
+  /* Change font size for header1 */
   h1 {
     font-size: 36px;
   }
 
-  /* Измените размер шрифта для описания */
+  /* Change paragraph font size */
   p {
     font-size: 18px;
   }
 
-  /* Измените ширину картинок */
+  /* Change image width */
   .image-container img {
     width: 50%;
   }
 }
 
-/* Десктопы (больше 1024px) */
+/* Desktops (greater than 1024px) */
 @media only screen and (min-width: 1024px) {
-  /* Измените размер шрифта для заголовка */
+  /* Change font size for header1 */
   h1 {
     font-size: 48px;
   }
 
-  /* Измените размер шрифта для описания */
+  /* Change paragraph font size */
   p {
     font-size: 24px;
   }
 
-  /* Измените ширину картинок */
+  /* Change image width */
   .image-container img {
     width: 30%;
   }
@@ -60,14 +60,14 @@ iframe {
 }
 
 
-/* Стили для заголовка */
+/* Header1 style */
 h1 {
 color: #0066CC;
 font-size: 36px;
 text-align: center;
 }
 
-/* Стили для абзаца */
+/* Paragraph style */
 p {
 color: #333;
 font-size: 18px;
@@ -75,7 +75,7 @@ text-align: center;
 margin-bottom: 20px;
 }
 
-/* Стили для меню */
+/* Navigation bar style */
 nav {
   display: flex;
   justify-content: space-between;
@@ -95,7 +95,7 @@ a {
 
 
 
-/* Оформление страницы */
+/* Page style */
 body {
 font-family: Arial, sans-serif;
 margin: 0;
@@ -108,7 +108,7 @@ margin-top: 0;
 }
 
 
-/* Оформление формы feedback*/
+/* Feedback form style */
 form {
 background-color: #f9f9f9;
 border: 1px solid #ccc;
@@ -141,7 +141,7 @@ border-radius: 4px;
 cursor: pointer;
 }
 
-/* Оформление кнопки */
+/* Button style */
 button {
 background-color: #4CAF50;
 color: white;
@@ -165,7 +165,7 @@ cursor: pointer;
   cursor: pointer;
 }
 
-/* Оформление списка */
+/* List style */
 ul {
 list-style-type: none;
 margin: 0;
